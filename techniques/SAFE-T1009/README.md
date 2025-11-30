@@ -375,19 +375,19 @@ tags:
 
 1. **[SAFE-M-13: OAuth Flow Verification](../../mitigations/SAFE-M-13/README.md)**: Implement RFC 9207 Authorization Server Issuer Identification by validating "iss" parameter in all authorization responses against expected issuer before processing authorization codes
 2. **[SAFE-M-14: Server Allowlisting](../../mitigations/SAFE-M-14/README.md)**: Maintain strict allowlist of verified Authorization Server domains; reject OAuth flows to non-allowlisted domains regardless of configuration
-3. **[SAFE-M-21: Static AS Configuration](../../mitigations/SAFE-M-21/README.md)**: Configure OAuth endpoints statically rather than via dynamic discovery; require manual approval for AS configuration changes
-4. **[SAFE-M-22: Certificate Pinning](../../mitigations/SAFE-M-22/README.md)**: Pin TLS certificates or public keys for critical Authorization Servers; alert on certificate changes
-5. **[SAFE-M-23: PKCE Enforcement](../../mitigations/SAFE-M-23/README.md)**: Mandate Proof Key for Code Exchange (PKCE, RFC 7636) for all OAuth flows to prevent authorization code interception
-6. **[SAFE-M-24: Redirect URI Validation](../../mitigations/SAFE-M-24/README.md)**: Enforce strict redirect URI matching; reject wildcards and open redirects
+3. **Static AS Configuration**: Configure OAuth endpoints statically rather than via dynamic discovery; require manual approval for AS configuration changes to prevent dynamic endpoint manipulation
+4. **Certificate Pinning**: Pin TLS certificates or public keys for critical Authorization Servers; alert on certificate changes to detect potential domain takeover or MitM attacks
+5. **PKCE Enforcement**: Mandate Proof Key for Code Exchange (PKCE, RFC 7636) for all OAuth flows to prevent authorization code interception attacks
+6. **Redirect URI Validation**: Enforce strict redirect URI matching; reject wildcards and open redirects that could be exploited for token theft
 7. **[SAFE-M-15: User Warning Systems](../../mitigations/SAFE-M-15/README.md)**: Display clear warnings when OAuth flows target unfamiliar domains; show full URL with visual indicators for security-critical characters
-8. **[SAFE-M-25: DNS Security](../../mitigations/SAFE-M-25/README.md)**: Implement DNSSEC validation and DNS-based filtering to block known typosquatting domains
+8. **DNS Security**: Implement DNSSEC validation and DNS-based filtering to block known typosquatting domains
 
 ### Detective Controls
 
 1. **[SAFE-M-18: OAuth Flow Monitoring](../../mitigations/SAFE-M-18/README.md)**: Log all OAuth authorization attempts including full URLs, issuer parameters, and certificate details
-2. **[SAFE-M-26: Domain Similarity Detection](../../mitigations/SAFE-M-26/README.md)**: Implement algorithmic detection of typosquatted and homograph domains using Levenshtein distance and Unicode confusables libraries
+2. **Domain Similarity Detection**: Implement algorithmic detection of typosquatted and homograph domains using Levenshtein distance and Unicode confusables libraries to identify potential AS impersonation
 3. **[SAFE-M-20: Anomaly Detection](../../mitigations/SAFE-M-20/README.md)**: Deploy behavioral analytics to detect unusual OAuth patterns such as first-seen domains, geographic anomalies, or multiple AS configurations
-4. **[SAFE-M-27: Certificate Transparency Monitoring](../../mitigations/SAFE-M-27/README.md)**: Monitor Certificate Transparency logs for certificates issued for lookalike domains of trusted Authorization Servers
+4. **Certificate Transparency Monitoring**: Monitor Certificate Transparency logs for certificates issued for lookalike domains of trusted Authorization Servers to detect potential impersonation infrastructure
 5. **[SAFE-M-19: Token Usage Tracking](../../mitigations/SAFE-M-19/README.md)**: Track OAuth token usage patterns to identify potentially compromised tokens
 
 ### Response Procedures
