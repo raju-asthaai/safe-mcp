@@ -1,4 +1,4 @@
-# SAFE Mitigation Documentation Checklist
+# SAF Mitigation Documentation Checklist
 
 ## Required Sections
 - [ ] **Overview** - ID, Category, Effectiveness, Complexity, First Published
@@ -24,7 +24,7 @@
   - [ ] Monitoring and alerting guidance
 - [ ] **Current Status** (if relevant industry data exists)
 - [ ] **References** - Include MCP spec + all cited sources
-- [ ] **Related Mitigations** - Link to other SAFE mitigations
+- [ ] **Related Mitigations** - Link to other SAF mitigations
 - [ ] **Version History** - Track changes
 
 ## Style Guidelines
@@ -36,8 +36,8 @@
 - Prefer academic papers and neutral sources over vendor promotional content
 - Include all cited URLs in the References section
 - Format academic citations as: [Title - Authors, Conference Year](URL)
-- Use SAFE-M-X format for mitigation cross-references
-- Use SAFE-T-X format for technique references
+- Use SAF-M-X format for mitigation cross-references
+- Use SAF-T-X format for technique references
 
 ## Category Guidelines
 
@@ -70,7 +70,7 @@
 ## Directory Structure
 ```
 mitigations/
-└── SAFE-M-XXXX/
+└── SAF-M-XXXX/
     ├── README.md           # Main documentation
     ├── implementation/     # Implementation examples (optional)
     ├── tests/             # Test cases (optional)
@@ -82,5 +82,5 @@ mitigations/
 - Effectiveness: Include parenthetical context like "(Provable Security)" when applicable
 - Always include performance impact assessment in Limitations
 - Consider adding "Current Status" section if there's significant industry adoption data
-- Link to actual SAFE-T techniques in the "Mitigates" section
+- Link to actual SAF-T techniques in the "Mitigates" section
 - Cross-reference related mitigations in the same category or addressing similar threats

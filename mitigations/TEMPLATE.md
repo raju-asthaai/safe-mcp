@@ -1,7 +1,7 @@
-# SAFE-M-[XXXX]: [Mitigation Category] - [Mitigation Name]
+# SAF-M-[XXXX]: [Mitigation Category] - [Mitigation Name]
 
 ## Overview
-**Mitigation ID**: SAFE-M-[XXXX]  
+**Mitigation ID**: SAF-M-[XXXX]  
 **Category**: [Architectural Defense/Cryptographic Control/AI-Based Defense/Input Validation/Supply Chain Security/UI Security/Isolation and Containment/Detective Control/Preventive Control/Architectural Control/Risk Management/Data Security/Human Factors]  
 **Effectiveness**: [High/Medium-High/Medium/Low] ([Additional context like "Provable Security"])  
 **Implementation Complexity**: [High/Medium/Low]  
@@ -13,9 +13,9 @@
 [Second paragraph: Technical details about how the mitigation protects against MCP attacks]
 
 ## Mitigates
-- [SAFE-TXXXX](../../techniques/SAFE-TXXXX/README.md): [Technique Name]
-- [SAFE-TXXXX](../../techniques/SAFE-TXXXX/README.md): [Technique Name]
-- [SAFE-TXXXX](../../techniques/SAFE-TXXXX/README.md): [Technique Name]
+- [SAF-TXXXX](../../techniques/SAF-TXXXX/README.md): [Technique Name]
+- [SAF-TXXXX](../../techniques/SAF-TXXXX/README.md): [Technique Name]
+- [SAF-TXXXX](../../techniques/SAF-TXXXX/README.md): [Technique Name]
 
 ## Technical Implementation
 
@@ -130,8 +130,8 @@ According to industry reports, organizations are adopting this mitigation:
 - [Additional Reference 2]
 
 ## Related Mitigations
-- [SAFE-M-X](../SAFE-M-X/README.md): [Relationship description]
-- [SAFE-M-X](../SAFE-M-X/README.md): [Relationship description]
+- [SAF-M-X](../SAF-M-X/README.md): [Relationship description]
+- [SAF-M-X](../SAF-M-X/README.md): [Relationship description]
 
 ## Version History
 | Version | Date | Changes | Author |

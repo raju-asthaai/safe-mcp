@@ -1,8 +1,8 @@
-# SAFE-T[XXXX]: [Technique Name]
+# SAF-T[XXXX]: [Technique Name]
 
 ## Overview
 **Tactic**: [Tactic Name (ATK-TAXXXX)]  
-**Technique ID**: SAFE-T[XXXX]  
+**Technique ID**: SAF-T[XXXX]  
 **Severity**: [Critical/High/Medium/Low]  
 **First Observed**: [Date/Not observed in production/Discovered by X]  
 **Last Updated**: [Date]
@@ -85,7 +85,7 @@ description: [Description]
 author: [Author Name]
 date: [Date]
 references:
-  - https://github.com/safe-mcp/techniques/SAFE-T[XXXX]
+  - https://github.com/saf-mcp/techniques/SAF-T[XXXX]
 logsource:
   product: mcp
   service: [service name]
@@ -112,14 +112,14 @@ tags:
 ## Mitigation Strategies
 
 ### Preventive Controls
-1. **[SAFE-M-X: Control Name](../../mitigations/SAFE-M-X/README.md)**: [Description of implementation]
-2. **[SAFE-M-X: Control Name](../../mitigations/SAFE-M-X/README.md)**: [Description of implementation]
-3. **[SAFE-M-X: Control Name](../../mitigations/SAFE-M-X/README.md)**: [Description of implementation]
+1. **[SAF-M-X: Control Name](../../mitigations/SAF-M-X/README.md)**: [Description of implementation]
+2. **[SAF-M-X: Control Name](../../mitigations/SAF-M-X/README.md)**: [Description of implementation]
+3. **[SAF-M-X: Control Name](../../mitigations/SAF-M-X/README.md)**: [Description of implementation]
    <!-- If citing research for a control, include inline citation like: According to [Research Name](URL), implementing X can provide Y benefit -->
 
 ### Detective Controls
-1. **[SAFE-M-X: Control Name](../../mitigations/SAFE-M-X/README.md)**: [Description of implementation]
-2. **[SAFE-M-X: Control Name](../../mitigations/SAFE-M-X/README.md)**: [Description of implementation]
+1. **[SAF-M-X: Control Name](../../mitigations/SAF-M-X/README.md)**: [Description of implementation]
+2. **[SAF-M-X: Control Name](../../mitigations/SAF-M-X/README.md)**: [Description of implementation]
 
 ### Response Procedures
 1. **Immediate Actions**:
@@ -133,8 +133,8 @@ tags:
    - [Remediation step 2]
 
 ## Related Techniques
-- [SAFE-TXXXX](../SAFE-TXXXX/README.md): [Relationship description]
-- [SAFE-TXXXX](../SAFE-TXXXX/README.md): [Relationship description]
+- [SAF-TXXXX](../SAF-TXXXX/README.md): [Relationship description]
+- [SAF-TXXXX](../SAF-TXXXX/README.md): [Relationship description]
 
 ## References
 - [Model Context Protocol Specification](https://modelcontextprotocol.io/specification)

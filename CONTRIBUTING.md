@@ -1,6 +1,6 @@
 # Contributors Guide
 
-Welcome to the SAFE-MCP project! We appreciate your interest in contributing to this framework for documenting and mitigating security threats in the Model Context Protocol ecosystem.
+Welcome to the SAF-MCP project! We appreciate your interest in contributing to this framework for documenting and mitigating security threats in the Model Context Protocol ecosystem.
 
 ## Code of Conduct
 
@@ -120,10 +120,10 @@ Include:
 - **Changes**: Brief, clear description of what you added or changed
 - **Author**: Your name as you'd like to be credited
   - You may include your organization if comfortable: `Your Name, Organization`
-  - If you prefer not to receive individual attribution, use: `The SAFE-MCP Authors`
+  - If you prefer not to receive individual attribution, use: `The SAF-MCP Authors`
 
 ## Questions?
 
 If you have questions about contributing, please open an issue for discussion.
 
-Thank you for contributing to SAFE-MCP!
+Thank you for contributing to SAF-MCP!

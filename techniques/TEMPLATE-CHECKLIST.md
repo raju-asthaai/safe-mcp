@@ -1,4 +1,4 @@
-# SAFE Technique Documentation Checklist
+# SAF Technique Documentation Checklist
 
 ## Required Sections
 - [ ] **Overview** - Tactic, ID, Severity, First Observed, Last Updated
@@ -16,10 +16,10 @@
   - [ ] Sigma rule with warning about limitations
   - [ ] Behavioral indicators
 - [ ] **Mitigation Strategies**
-  - [ ] Preventive controls (use SAFE-M-X format)
-  - [ ] Detective controls (use SAFE-M-X format)
+  - [ ] Preventive controls (use SAF-M-X format)
+  - [ ] Detective controls (use SAF-M-X format)
   - [ ] Response procedures
-- [ ] **Related Techniques** - Link to other SAFE techniques
+- [ ] **Related Techniques** - Link to other SAF techniques
 - [ ] **References** - Include MCP spec + all cited sources
 - [ ] **MITRE ATT&CK Mapping** - Link to official techniques
 - [ ] **Version History** - Track changes
@@ -34,12 +34,12 @@
 - Prefer academic papers and neutral sources over vendor promotional content
 - Include all cited URLs in the References section
 - Format academic citations as: [Title - Authors, Conference Year](URL)
-- Use SAFE-M-X format for mitigation references
+- Use SAF-M-X format for mitigation references
 
 ## Directory Structure
 ```
 techniques/
-└── SAFE-TXXXX/
+└── SAF-TXXXX/
     ├── README.md           # Main documentation
     ├── detection-rule.yml  # Standalone Sigma rule
     ├── test-logs.json      # Test data (optional)
